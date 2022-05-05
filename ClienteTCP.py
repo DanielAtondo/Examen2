@@ -3,10 +3,13 @@ import socket
 import threading
 import serial
 
-serArduino = serial.Serial('COM5', 9600)
+puertoCOM='COM5'
+ipServidor='187.250.77.133'
+
+serArduino = serial.Serial(puertoCOM, 9600)
 nickname='Receptor'
 client=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-client.connect(('187.250.77.133',5001))
+client.connect((ipServidor,5001))
 
 def receive():
     while True:
