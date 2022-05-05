@@ -24,3 +24,13 @@ Buscar el apartado "Mapeo de Puertos/Port Mapping" y una vez ahí en la sección
  <img src="https://github.com/DanielAtondo/Examen2/blob/main/Imagenes/CircuitoReceptor.png" alt="Circuito Emisor" style="height: 100%; width:100%;"/>
 </ul>
 <h2>Instrucciones</h2>
+<ul>
+ <li>Instalar Python</li>
+ <li>Instalas LABVIEW</li>
+ <li>Abrir el codigo con "Python"</li>
+ <ul>
+  <li>En caso de ser el Servidor abrimos el archivo "ServidorTCP.py" con Python.</li>
+  <li>En caso de ser el Receptor abrimos el archivo "ClienteTCP.pu" con nuestro editor de codigo favorito modificamos el valor de la variable "puertoCOM" con el Puerto al que este conectado el arduino previamente cargado con el codigo del microcontrolador.</li>
+  <li>En caso de ser el Emisor abrimos el VI "Emisor.vi" en el IDE Labview
+ </ul>
+</ul>
