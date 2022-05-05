@@ -26,7 +26,8 @@ Buscar el apartado "Mapeo de Puertos/Port Mapping" y una vez ahí en la sección
 <h2>Instrucciones</h2>
 <ul>
  <li>Instalar Python</li>
- <li>Instalas LABVIEW</li>
+ <li>Instalar LABVIEW</li>
+ <li>Instalar IDE Arduino</li>
  <li>Abrir el codigo con "Python"</li>
  <ul>
   <li>En caso de ser el Servidor abrimos el archivo "ServidorTCP.py" con Python.</li>
