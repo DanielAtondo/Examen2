@@ -3,7 +3,7 @@ from operator import index
 import threading
 import socket
 
-host = '' #187.250.77.133
+host = ''
 port = 5001
 
 server=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
